@@ -55,7 +55,7 @@ symptoms_database = {
     "Bipolar Disorder": ["Manic episodes (elevated mood)", "Depressive episodes", "Impulsivity"],
     "Schizophrenia": ["Hallucinations", "Delusions", "Disorganized thinking", "Social withdrawal"],
     "Epilepsy": ["Seizures", "Loss of consciousness", "Convulsions", "Confusion"],
-    ""Malaria": ["Fever", "Chills", "Sweating", "Headaches", "Muscle pain"],
+    "Malaria": ["Fever", "Chills", "Sweating", "Headaches", "Muscle pain"],
     "Tuberculosis (TB)": ["Cough that lasts 3 weeks or more", "Chest pain", "Weight loss", "Fever"],
     "Lupus": ["Fatigue", "Joint pain", "Skin rashes", "Fever", "Swelling"],
     "Rheumatoid Arthritis": ["Joint pain", "Morning stiffness", "Swelling", "Fatigue", "Fever"],
@@ -110,7 +110,8 @@ symptoms_database = {
     "Post-Traumatic Stress Disorder (PTSD)": ["Flashbacks", "Nightmares", "Severe anxiety", "Avoidance of reminders"],
     "Bipolar II Disorder": ["Hypomanic episodes (less severe than mania)", "Depressive episodes", "Impulsivity"],
     "Binge-Eating Disorder": ["Frequent episodes of excessive eating", "Lack of control during binge eating", "Feelings of guilt"],
-    "Generalized Anxiety Disorder (GAD)": ["Excessive worry and anxiety", "Restlessness", "Muscle tension"],Multiple Sclerosis": ["Fatigue", "Difficulty walking", "Numbness or tingling", "Muscle weakness"],
+    "Generalized Anxiety Disorder (GAD)": ["Excessive worry and anxiety", "Restlessness", "Muscle tension"],
+    "Multiple Sclerosis": ["Fatigue", "Difficulty walking", "Numbness or tingling", "Muscle weakness"],
 
     # Add more symptoms and information here
 }

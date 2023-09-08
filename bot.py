@@ -224,9 +224,13 @@ while True:
     print("Healthcare Chatbot:", response)
 
     # Learn from user input and store feedback
-    new_response = input("Healthcare Chatbot: If my response was not helpful, please provide a better response. Otherwise, type 'no': ")
-    if new_response.lower() != "no":
-        conversation_history[user_input] = new_response
+new_response = input("Healthcare Chatbot: If my response was not helpful, please provide a better response. Otherwise, type 'no': ")
+if new_response.lower() != "no":
+    # Store the user's feedback and associated user input
+    conversation_history[user_input] = new_response
+    print("Healthcare Chatbot: Thank you for your feedback. I'll learn from it.")
+else:
+    print("Healthcare Chatbot: Thank you for your feedback. If you have more questions, feel free to ask.") 
 
 # Print conversation history
 print("Conversation History:")
